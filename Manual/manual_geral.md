@@ -8,8 +8,6 @@
 
 - **Java 17**
 - **Node.js v18+**
-- **MongoDB** (local ou via Docker)
-- **Docker + Docker Compose** (opcional)
 - Navegador moderno (Chrome, Edge, Firefox)
 
 ---
@@ -21,7 +19,6 @@
 ├── backend/        → Spring Boot API (Java)
 ├── frontend/       → Aplicação web (Vue.js + Vite)
 ├── docs/           → Documentação
-├── docker-compose.yml
 ```
 
 ---
@@ -35,17 +32,7 @@ git clone https://github.com/FatecCoderHood/4_GeoHood.git
 cd 4_GeoHood
 ```
 
-### 🧠 2. Inicie o MongoDB (se não estiver rodando)
-
-Com Docker:
-
-```bash
-docker-compose up -d
-```
-
-Ou manualmente, caso você tenha MongoDB local.
-
-### 🧪 3. Rodando o Backend (Java + Spring Boot)
+### 🧪 2. Rodando o Backend (Java + Spring Boot)
 
 ```bash
 cd backend
@@ -54,7 +41,7 @@ cd backend
 
 A API sobe em `http://localhost:8080`.
 
-### 🌐 4. Rodando o Frontend (Vue.js)
+### 🌐 3. Rodando o Frontend (Vue.js)
 
 Em outro terminal:
 
@@ -80,6 +67,6 @@ O front ficará disponível em `http://localhost:5173`.
 
 ## 🧭 Navegação Geral
 
-- Menu lateral esquerdo com acesso às funcionalidades
-- Responsividade: funciona em desktop e tablets
+- Canto superior direito com o acesso para logout
+- Menu lateral direito com acesso às funcionalidades do perfil de usuário
 - Mapas com LeafletJS
