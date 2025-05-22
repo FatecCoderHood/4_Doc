@@ -19,11 +19,3 @@
 2. A área será marcada como **“Aprovada”**
 
 ---
-
-## 📊 Dashboards Analíticos
-
-- Métricas disponíveis:
-  - Total de áreas por cultura
-  - Status de aprovação
-  - Área total cadastrada
-- Exportação (PDF/CSV) se disponível
