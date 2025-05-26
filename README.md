@@ -7,7 +7,7 @@
 ## Gráfico Burndown
 
 <div align="center">
-    <img src="Burndown\sprint2\2025-04-27.jpeg" alt="Gráfico Burndown" alt="Gráfico Burndown" width="95%">
+    <img src="Burndown\sprint3\Burndown-final.jpeg" alt="Gráfico Burndown" alt="Gráfico Burndown" width="95%">
 </div>
 
 ## Tecnologias Utilizadas
